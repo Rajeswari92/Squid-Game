@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 90px;
+  padding-bottom: 90px;
+  padding-top: 30px;
+
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 30px;
+}
+.heading {
+  padding: 20px;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+form label {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.game-box {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.game-message {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.para {
+  text-align: left;
+}
